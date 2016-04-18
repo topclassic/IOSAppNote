@@ -36,6 +36,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="dateLabel" destination="xqj-2l-fp8" id="3Ze-g5-sA6"/>
                                     <outlet property="titleLabel" destination="WgA-vu-1kz" id="3AT-EB-98C"/>
                                 </connections>
                             </tableViewCell>
