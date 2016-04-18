@@ -186,6 +186,7 @@
                     </view>
                     <connections>
                         <outlet property="contentTextView" destination="KdI-V9-7Rj" id="pVx-q5-Pto"/>
+                        <outlet property="titleTextField" destination="LpI-im-yIC" id="EhE-bO-y4y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OeI-RC-4WO" userLabel="First Responder" sceneMemberID="firstResponder"/>
