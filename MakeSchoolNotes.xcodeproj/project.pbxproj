@@ -14,11 +14,6 @@
 		2EED6B521B9E520500CD5441 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EED6B501B9E520500CD5441 /* RealmSwift.framework */; };
 		2EED6B531B9E520E00CD5441 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EED6B4F1B9E520500CD5441 /* Realm.framework */; };
 		2EED6B5D1B9E535A00CD5441 /* StyleConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED6B5C1B9E535A00CD5441 /* StyleConstants.swift */; };
-		2EED6B5F1B9E539B00CD5441 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED6B5E1B9E539B00CD5441 /* Note.swift */; };
-		2EED6B611B9E53AC00CD5441 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED6B601B9E53AC00CD5441 /* NotesViewController.swift */; };
-		2EED6B631B9E53BC00CD5441 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED6B621B9E53BC00CD5441 /* NoteTableViewCell.swift */; };
-		3EBF3B311C6470970061C882 /* NoteDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF3B301C6470970061C882 /* NoteDisplayViewController.swift */; };
-		3ED5D8DB1C631A250009F6FF /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5D8DA1C631A250009F6FF /* NewNoteViewController.swift */; };
 		62096A131BABC24600564CFC /* ConvenienceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62096A0E1BABC23900564CFC /* ConvenienceKit.framework */; };
 		62466AAB1BDFF22500F84A78 /* ConvenienceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62096A0E1BABC23900564CFC /* ConvenienceKit.framework */; };
 		62466AAC1BDFF22500F84A78 /* ConvenienceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62096A0E1BABC23900564CFC /* ConvenienceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -29,6 +24,9 @@
 		62466AB71BE0008300F84A78 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62466AB01BDFF66C00F84A78 /* RealmSwift.framework */; };
 		62466AB81BE0008300F84A78 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62466AB01BDFF66C00F84A78 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8E6046B90E8BD06964132117 /* Pods_MakeSchoolNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B342BCEAA48C01A626405C /* Pods_MakeSchoolNotes.framework */; };
+		EEB864A21CE84C000019AF1C /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB864A11CE84C000019AF1C /* Notes.swift */; };
+		EEB864A61CE84EAE0019AF1C /* realmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB864A51CE84EAE0019AF1C /* realmController.swift */; };
+		EEB864A81CE8513F0019AF1C /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB864A71CE8513F0019AF1C /* ViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,16 +86,14 @@
 		2EED6B4F1B9E520500CD5441 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "/Users/benjaminencz/Development/MakeSchool/Projects/Make-School-Notes-Starter-Project/Frameworks/Realm.framework"; sourceTree = "<absolute>"; };
 		2EED6B501B9E520500CD5441 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "/Users/benjaminencz/Development/MakeSchool/Projects/Make-School-Notes-Starter-Project/Frameworks/RealmSwift.framework"; sourceTree = "<absolute>"; };
 		2EED6B5C1B9E535A00CD5441 /* StyleConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleConstants.swift; sourceTree = "<group>"; };
-		2EED6B5E1B9E539B00CD5441 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		2EED6B601B9E53AC00CD5441 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
-		2EED6B621B9E53BC00CD5441 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
-		3EBF3B301C6470970061C882 /* NoteDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDisplayViewController.swift; sourceTree = "<group>"; };
-		3ED5D8DA1C631A250009F6FF /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
 		62096A071BABC23900564CFC /* ConvenienceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ConvenienceKit.xcodeproj; path = ConvenienceKit/ConvenienceKit.xcodeproj; sourceTree = "<group>"; };
 		62466AAF1BDFF66C00F84A78 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		62466AB01BDFF66C00F84A78 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		A57C9BA9B60627ACE9668D3D /* Pods-MakeSchoolNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeSchoolNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeSchoolNotes/Pods-MakeSchoolNotes.release.xcconfig"; sourceTree = "<group>"; };
 		ACA2F46FEA13EAF58BD661BB /* Pods-MakeSchoolNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeSchoolNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeSchoolNotes/Pods-MakeSchoolNotes.debug.xcconfig"; sourceTree = "<group>"; };
+		EEB864A11CE84C000019AF1C /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		EEB864A51CE84EAE0019AF1C /* realmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = realmController.swift; sourceTree = "<group>"; };
+		EEB864A71CE8513F0019AF1C /* ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
 		F8B342BCEAA48C01A626405C /* Pods_MakeSchoolNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeSchoolNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -143,14 +139,14 @@
 			isa = PBXGroup;
 			children = (
 				2EED6B581B9E534800CD5441 /* Constants */,
-				2EED6B591B9E534800CD5441 /* Entities */,
-				2EED6B5A1B9E534800CD5441 /* ViewControllers */,
-				2EED6B5B1B9E534800CD5441 /* Views */,
 				2EBB11361B9E3F5E005D313C /* AppDelegate.swift */,
 				2EBB113A1B9E3F5E005D313C /* Main.storyboard */,
 				2EBB113D1B9E3F5E005D313C /* Assets.xcassets */,
 				2EBB113F1B9E3F5E005D313C /* LaunchScreen.storyboard */,
 				2EBB11421B9E3F5E005D313C /* Info.plist */,
+				EEB864A11CE84C000019AF1C /* Notes.swift */,
+				EEB864A51CE84EAE0019AF1C /* realmController.swift */,
+				EEB864A71CE8513F0019AF1C /* ViewCell.swift */,
 			);
 			path = MakeSchoolNotes;
 			sourceTree = "<group>";
@@ -172,32 +168,6 @@
 				2EED6B5C1B9E535A00CD5441 /* StyleConstants.swift */,
 			);
 			path = Constants;
-			sourceTree = "<group>";
-		};
-		2EED6B591B9E534800CD5441 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-				2EED6B5E1B9E539B00CD5441 /* Note.swift */,
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		2EED6B5A1B9E534800CD5441 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				2EED6B601B9E53AC00CD5441 /* NotesViewController.swift */,
-				3ED5D8DA1C631A250009F6FF /* NewNoteViewController.swift */,
-				3EBF3B301C6470970061C882 /* NoteDisplayViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		2EED6B5B1B9E534800CD5441 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2EED6B621B9E53BC00CD5441 /* NoteTableViewCell.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		62096A081BABC23900564CFC /* Products */ = {
@@ -372,13 +342,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EED6B611B9E53AC00CD5441 /* NotesViewController.swift in Sources */,
 				2EBB11371B9E3F5E005D313C /* AppDelegate.swift in Sources */,
+				EEB864A61CE84EAE0019AF1C /* realmController.swift in Sources */,
 				2EED6B5D1B9E535A00CD5441 /* StyleConstants.swift in Sources */,
-				2EED6B631B9E53BC00CD5441 /* NoteTableViewCell.swift in Sources */,
-				2EED6B5F1B9E539B00CD5441 /* Note.swift in Sources */,
-				3EBF3B311C6470970061C882 /* NoteDisplayViewController.swift in Sources */,
-				3ED5D8DB1C631A250009F6FF /* NewNoteViewController.swift in Sources */,
+				EEB864A21CE84C000019AF1C /* Notes.swift in Sources */,
+				EEB864A81CE8513F0019AF1C /* ViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
